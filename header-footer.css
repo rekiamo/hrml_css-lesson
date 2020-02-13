@@ -1,0 +1,117 @@
+*{
+  box-sizing: border-box;
+}
+body {
+   margin: 0;
+   padding: 0;
+}
+
+
+header{
+  width:100%;
+  height:80px;
+  background-color: white;
+  position:fixed;
+  filter: drop-shadow(5px 5px 5px rgba(0,0,0,0.3));
+}
+.header-contents{
+  height:80px;
+  position:relative;
+}
+.header-icon{
+  float: left;
+  margin-left: 50px;
+  height:80px;
+}
+.header-icon img{
+  padding:15px 0;
+  position:absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto 50px 0; /*上下左右中央に*/
+  width: auto; /*widthの指定は必須*/
+  height: 80px; /*heightの指定は必須*/
+}
+.header-icon h1{
+  text-align: center;
+}
+.header-list{
+  float: right;
+  margin-right: 50px;
+}
+.header-list a{
+  margin-right: 10px;
+  line-height: 80px;
+  text-decoration: none;
+}
+.header-menu{
+  display:none;
+}
+
+
+footer{
+  width:100%;
+  border-top: 1px solid #eeeeee;
+  background-color: white;
+  float:left;
+  margin-top: 50px;
+}
+.footer-contents{
+  width: 100%;
+  height:30px;
+  margin: 20px 0;
+}
+.footer-icons{
+  float:left;
+  margin-left: 50px;
+}
+.footer-icons i{
+  font-size: 25px;
+  margin:5px;
+}
+.footer-list{
+  float:right;
+  margin-right: 50px;
+}
+.footer-list a{
+  margin-right: 10px;
+  text-decoration: none;
+}
+.footer-copyright{
+  text-align: center;
+  font-size: 10px;
+}
+
+
+@media(max-width:670px){
+  .header-list{
+    display:none;
+  }
+  .header-menu{
+    display:block;
+    float: right;
+    font-size:25px;
+    line-height:80px;
+    margin-right: 50px;
+  }
+  .footer-contents{
+    position:relative;
+  }
+  .footer-icons{
+    position:absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto; /*上下左右中央に*/
+    width: 100px; /*widthの指定は必須*/
+    height: 30px; /*heightの指定は必須*/
+  }
+  .footer-list{
+    display:none;
+  }
+
+
+}
