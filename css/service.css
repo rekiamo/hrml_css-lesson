@@ -1,0 +1,56 @@
+
+.service-wrapper{
+  width:100%;
+  height:1200px;
+  padding-top: 120px;
+}
+.container{
+  width:70%;
+  height:1200px;
+  margin:0 auto;
+}
+.container h2{
+  text-align:center;
+  margin-top:30px;
+}
+.services{
+
+}
+.service{
+  padding-bottom: 30px;
+
+  display: flex;
+  flex-wrap: wrap;
+
+}
+.service img{
+  width:200px;
+  margin: 0 20px 20px 20px;
+
+  flex: auto;
+}
+.service-detail{
+  width:60%;
+  margin: 0 20px 20px 20px;
+  flex: auto;
+}
+.service-detail h3{
+
+}
+.service-detail p{
+
+}
+.service-detail  a{
+
+}
+
+
+@media(max-width:670px){
+  .service-wrapper{
+    width:100%;
+    height:2200px;
+  }
+
+
+
+}
